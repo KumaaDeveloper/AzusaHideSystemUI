@@ -8,8 +8,10 @@ commands:
   hidesystem:
     description: Open AzusaHideSystemUI
     aliases: [hsystem, hs]
-    permission: hidesystem.command
+    permission: azusahidesystem.command
 permissions:
-  hidesystem.command:
+  azusahidesystem.command:
     description: Allows players to use the AzusaHideSystemUI
     default: true
+dependencies:
+- FormAPI
