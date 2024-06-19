@@ -1,0 +1,15 @@
+name: AzusaHideSystemUI
+version: 1.0.1
+api: [5.0.0]
+main: KumaDev\HideSystem\Main
+author: KumaDeveloper
+description: Plugin that removes nametags of other players or skins of other players
+commands:
+  hidesystem:
+    description: Open AzusaHideSystemUI
+    aliases: [hsystem, hs]
+    permission: hidesystem.command
+permissions:
+  hidesystem.command:
+    description: Allows players to use the AzusaHideSystemUI
+    default: true
