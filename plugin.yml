@@ -1,5 +1,5 @@
 name: AzusaHideSystemUI
-version: 1.0.1
+version: 1.0.2
 api: [5.0.0]
 main: KumaDev\HideSystem\Main
 author: KumaDeveloper
@@ -8,9 +8,9 @@ commands:
   hidesystem:
     description: Open AzusaHideSystemUI
     aliases: [hsystem, hs]
-    permission: azusahidesystem.command
+    permission: azusahidesystemui.command
 permissions:
-  azusahidesystem.command:
+  azusahidesystemui.command:
     description: Allows players to use the AzusaHideSystemUI
     default: true
 dependencies:
